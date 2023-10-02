@@ -2,7 +2,9 @@
 **README.html
 codes/secrets.R
 inputs/data_private/**
+!inputs/data_private/README.md
 outputs/data_private/**
+!outputs/data_private/README.md
 
 # General OS
 .DS_Store
