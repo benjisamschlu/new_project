@@ -42,6 +42,43 @@ always_allow_html: true
 abstract: "< N words"
 ---
 
+```{r chunk-options, echo=FALSE}
+
+## Global chunk options --------------------------------------------------------
+
+knitr::opts_chunk$set(echo = FALSE, fig.pos = "H", out.extra = "")
+
+```
+
+
+```{r pkg-data, warning=FALSE, message=FALSE}
+
+## Load packages ---------------------------------------------------------------
+
+## Install/load packages
+packages <- c("tidyverse", "ggplot2", "here")
+for(p in packages){
+    if(!require(p,character.only = TRUE)) install.packages(p)
+    library(p,character.only = TRUE)
+}
+
+
+
+## Functions -------------------------------------------------------------------
+
+## Script containing the functions computing
+## the main elements required to run the kin dynamics
+
+
+
+## Load data -------------------------------------------------------------------
+
+
+
+```
+
+
+
 # Introduction
 
 

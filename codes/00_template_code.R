@@ -22,25 +22,25 @@ rm(list = ls())
 
 
 
-## Load packages ---------------------------------------------------------------
+## LOAD PACKAGES ---------------------------------------------------------------
 
 # Install/load packages
 packages <- c("tidyverse", "here")
 for(p in packages){
-    if(!require(p,character.only = TRUE)) install.packages(p)
-    library(p,character.only = TRUE)
+        if(!require(p,character.only = TRUE)) install.packages(p)
+        library(p,character.only = TRUE)
 }
 
 
 
-## Functions -------------------------------------------------------------------
+## FUNCTIONS -------------------------------------------------------------------
 
 
 # source(here("codes", "functions", "fct_name.R"))
 
 
 
-## Load data -------------------------------------------------------------------
+## LOAD DATA -------------------------------------------------------------------
 
 df <- readRDS(here("inputs", 
                    "data_private", 
@@ -48,11 +48,11 @@ df <- readRDS(here("inputs",
 
 
 
-## Key dimensions for code -----------------------------------------------------
+## KEY DIMENSIONS OF CODE -----------------------------------------------------
 
 
 
-## Clean data ------------------------------------------------------------------
+## CLEAN DATA ------------------------------------------------------------------
 
 
 

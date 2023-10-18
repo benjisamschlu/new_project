@@ -1,20 +1,5 @@
 ---
 title: "Document's title"
-author:
-  - name: Benjamin-Samuel Schluter
-    affiliation: A
-    footnote:
-      - corresp
-  - name: First name Family name
-    affiliation: A
-address:
-  - code: A
-    address: Department of Statistical Sciences, University of Toronto, Canada
-  - code: B
-    address: Department, Institution, Country
-footnote:
-  - code: corresp
-    text: "benjamin.schluter@utoronto.ca."
 bibliography: refs.bib
 csl: demographic-research.csl
 link-citations: TRUE
@@ -41,6 +26,43 @@ tables: TRUE # Needed to be able to include tables
 always_allow_html: true
 abstract: "< N words"
 ---
+
+```{r chunk-options, echo=FALSE}
+
+## Global chunk options --------------------------------------------------------
+
+knitr::opts_chunk$set(echo = FALSE, fig.pos = "H", out.extra = "")
+
+```
+
+
+```{r pkg-data, warning=FALSE, message=FALSE}
+
+## Load packages ---------------------------------------------------------------
+
+## Install/load packages
+packages <- c("tidyverse", "ggplot2", "here")
+for(p in packages){
+    if(!require(p,character.only = TRUE)) install.packages(p)
+    library(p,character.only = TRUE)
+}
+
+
+
+## Functions -------------------------------------------------------------------
+
+## Script containing the functions computing
+## the main elements required to run the kin dynamics
+
+
+
+## Load data -------------------------------------------------------------------
+
+
+
+```
+
+
 
 # Introduction
 
