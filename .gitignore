@@ -1,10 +1,10 @@
 ## Project specific ignores
 **README.html
 codes/secrets.R
-inputs/data_private/**
-!inputs/data_private/README.md
-outputs/data_private/**
-!outputs/data_private/README.md
+inputs/data/**
+!inputs/data/README.md
+outputs/data/**
+!outputs/data/README.md
 
 # General OS
 .DS_Store
